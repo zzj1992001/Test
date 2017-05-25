@@ -21,14 +21,12 @@
 				<td>${data.name }</td>
 				<td>${data.content }</td>
 				<td>${data.mark }</td>
-				<td><a href="HL/modifyEdit?id=${data.id }"
-					target="div" data-cb-show="main_1"
-					class="btn btn-xs btn-flat btn-success ladda-button"
-					data-style="slide-right">编辑</a> 
+				<td><a href="HL/modifyEdit/${data.id }"
+					target="div" data-cb-show="main_1" class="btn btn-xs btn-flat btn-success ladda-button" data-style="slide-right">编辑</a> 
 					<a
 					href="HL/delete?id=${data.id }" target="json"
 					data-cb-refresh="main_1" data-cb-alert="yes"
-					data-confirm-msg="确定删除该餐厅吗？"
+					data-confirm-msg="确定删除该项目吗？"
 					class="btn btn-xs btn-flat btn-danger ladda-button"
 					data-style="slide-right">删除</a></td>
 			</tr>

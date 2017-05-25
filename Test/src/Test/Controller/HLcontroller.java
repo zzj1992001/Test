@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 import com.jfinal.aop.Before;
+import com.jfinal.core.Controller;
 import nc.com.BaseController;
 import nc.com.fileService.FileService;
 import nc.com.fileService.SavedFile;
@@ -37,7 +38,16 @@ public class HLcontroller extends BaseController {
 		HL hl =getModel(HL.class,"hl");
 		hl.update();
 		
+		redirect("/index");
 		
+	}
+	public void modifyEdit()
+	{
+		Integer id=getParaToInt(0);
+		if(id!=null&&id>0){
+			setAttr("hl", HL.dao.findById(id));
+		}
+		render("Edit.jsp");
 	}
 	public void submit() 
 	{
@@ -45,7 +55,7 @@ public class HLcontroller extends BaseController {
 		HL hl =getModel(HL.class,"hl");
 		hl.set("createtime", new Date());
 		hl.save();
-		renderSuccess("添加成功");
+		redirect("/index");
 		
 	}
 	
