@@ -20,7 +20,7 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="http://www.baidu.com">
-      <strong><font color="#F8F8FF">只是为了好看</font></strong>
+      <strong><font color="#F8F8FF">12345</font></strong>
       </a>
     </div>
   </div>

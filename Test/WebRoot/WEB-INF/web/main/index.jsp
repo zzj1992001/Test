@@ -99,8 +99,8 @@
 								class="fa fa-angle-left pull-right"></i>
 						</span>
 					</a>
-						<ul class="treeview-menu">
-							<li class="active"><a href=""><i
+						<ul class="treeview-menu js-menu-click">
+							<li class="active"><a href="HL/index" target="div" data-cb-show="main_0"><i
 									class="fa fa-circle-o"></i> 英雄联盟</a></li>
 							<li><a href=""><i class="fa fa-circle-o"></i>
 									Dota2</a></li>
