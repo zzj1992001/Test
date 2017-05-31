@@ -3,6 +3,7 @@ package Test.common;
 
 import Test.common.AppConst;
 import Test.Controller.HLcontroller;
+import Test.Controller.WelcomeController;
 import Test.Controller.indexcontroller;
 import Test.entity.User;
 import Test.entity.HL;
@@ -41,6 +42,7 @@ public class MainConfig extends JFinalConfig {
 		// TODO Auto-generated method stub
 		me.add("/", indexcontroller.class,AppConst.JSP_BASE_VIEW_PATH);
 		me.add("/HL",HLcontroller.class,AppConst.JSP_BASE_VIEW_PATH +"/HL");
+		me.add("/welcome",WelcomeController.class,AppConst.JSP_WELCOME);
 	}
 
 	@Override

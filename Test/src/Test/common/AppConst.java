@@ -21,6 +21,7 @@ public class AppConst  {
 	public static final String RESPONSE_VALUE_DEFAULT_MSG = "";
 	
 	//JSP 常用页面
+	public static final String JSP_WELCOME = "/WEB-INF/web/";
 	public static final String JSP_BASE_VIEW_PATH = "/WEB-INF/web/main";
 	public static final String URL_LOGIN = "/";
 	public static final String URL_INDEX_ADMIN = "/index.jsp";
