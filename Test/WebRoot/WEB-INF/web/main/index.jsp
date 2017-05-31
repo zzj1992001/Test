@@ -151,7 +151,7 @@
 
 	<script src="assets/AdminJS/validator.min.js"></script>
 	<script src="assets/AdminJS/jquery.ajaxsubmit.js"></script>
-	<script src="assets/AdminJS/AdminJS.js?v=1.2"></script>
+	<script src="assets/AdminJS/AdminJS.js?v=1.3"></script>
 
 	<script type="text/javascript">
 		AdminJS.init();

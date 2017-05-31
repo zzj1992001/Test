@@ -38,7 +38,7 @@ public class HLcontroller extends BaseController {
 		HL hl =getModel(HL.class,"hl");
 		hl.update();
 		
-		redirect("/index");
+		renderSuccess("修改成功");
 		
 	}
 	public void modifyEdit()
@@ -55,7 +55,7 @@ public class HLcontroller extends BaseController {
 		HL hl =getModel(HL.class,"hl");
 		hl.set("createtime", new Date());
 		hl.save();
-		redirect("/index");
+		renderSuccess("添加成功");
 		
 	}
 	

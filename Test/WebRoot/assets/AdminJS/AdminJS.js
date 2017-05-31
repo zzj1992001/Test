@@ -249,6 +249,7 @@ var AjaxF = {
 		//loading 按钮
 		var $btn = $(document.activeElement);
 		var $loadingBtn;
+		
 		if($btn && $btn.attr("type") == 'submit') {
 			$loadingBtn = new LoadingBtn($btn);
 			$loadingBtn.start();
