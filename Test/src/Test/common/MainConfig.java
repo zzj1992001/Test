@@ -40,9 +40,9 @@ public class MainConfig extends JFinalConfig {
 	@Override
 	public void configRoute(Routes me) {
 		// TODO Auto-generated method stub
-		me.add("/", indexcontroller.class,AppConst.JSP_BASE_VIEW_PATH);
-		me.add("/HL",HLcontroller.class,AppConst.JSP_BASE_VIEW_PATH +"/HL");
-		me.add("/welcome",WelcomeController.class,AppConst.JSP_WELCOME);
+		me.add("/main", indexcontroller.class,AppConst.JSP_BASE_VIEW_PATH+ "/main/");
+		me.add("/main/HL",HLcontroller.class,AppConst.JSP_BASE_VIEW_PATH +"/main/HL");
+		me.add("/",WelcomeController.class,AppConst.JSP_BASE_VIEW_PATH);
 	}
 
 	@Override

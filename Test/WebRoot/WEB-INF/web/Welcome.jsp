@@ -11,6 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/wecome.css">
+<link rel="stylesheet" href="assets/ladda/ladda-themeless.min.css">
 </head>
 
 <body>
@@ -22,9 +23,9 @@
 					<h3 class="masthead-brand">个人网站</h3>
 					<nav>
 						<ul class="nav masthead-nav">
-							<li class="active"><a href="#">随便点</a></li>
-							<li><a href="#">不会有</a></li>
-							<li><a href="#">反应的</a></li>
+							<li class="active"><a href="welcome">随便点</a></li>
+							<li><a href="welcome" >不会有</a></li>
+							<li><a href="welcome">反应的</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -33,12 +34,12 @@
 				<h1 class="cover-heading">Welcome My World</h1>
 				<p class="lead"></p>
 				<p class="lead">
-					<a href="login" class="btn btn-lg btn-default">login</a>
+					<a href="main/login" class="btn btn-lg btn-default">login</a>
 				</p>
 			</div>
 			<div class="mastfoot">
 				<div class="inner">
-				<p>(P) Copyright 2017-2017, All Right Reserved.</p></div>
+				<p>Copyright 2017-2017, All Right Reserved.</p></div>
 			</div>
 		</div>
 		</div>
@@ -62,5 +63,8 @@
 
 		})();
 	</script>
+		<script type="text/javascript" src="assets/ladda/spin.min.js"></script>
+	<script type="text/javascript" src="assets/ladda/ladda.min.js"></script>
+	<script src="assets/AdminJS/AdminJS.js"></script>
 </body>
 </html>

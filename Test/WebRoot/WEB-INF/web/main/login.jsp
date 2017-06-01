@@ -31,7 +31,7 @@
 	  	<div class="login-logo">
 	    <a><strong><font color="#F8F8FF">管理台</font></strong></a>
 	  	</div>	
-	    <form action="ajaxLogin" method="post" onsubmit="return ajaxLogin(this);">
+	    <form action="main/ajaxLogin" method="post" onsubmit="return ajaxLogin(this);">
 	      <div class="form-group has-feedback">
 	        <input type="text" id="account" name="account" class="form-control" placeholder="用户名">
 	        <span class="glyphicon glyphicon-user form-control-feedback"></span>
@@ -92,7 +92,7 @@
    					$("#error_label").removeClass("text-danger");
    					$("#error_label").addClass("text-success");
    					setTimeout(function(){
-   						window.location.href = "index";
+   						window.location.href = "main/index";
    					}, 300);
    				}else {
    					setTimeout(function(){

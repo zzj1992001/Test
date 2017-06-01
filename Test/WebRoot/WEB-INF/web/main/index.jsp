@@ -72,11 +72,11 @@
 									class="img-circle" alt="User Image"></li>
 								<li class="user-footer">
 									<div class="pull-left">
-										<a href="passModifyEdit" target="div"
+										<a href="main/passModifyEdit" target="div"
 											data-cb-show="main_0" class="btn btn-default btn-flat">修改密码</a>
 									</div>
 									<div class="pull-right">
-										<a href="logout" class="btn btn-default btn-flat">退出登录</a>
+										<a href="main/logout" class="btn btn-default btn-flat">退出登录</a>
 									</div>
 								</li>
 							</ul></li>
@@ -100,7 +100,7 @@
 						</span>
 					</a>
 						<ul class="treeview-menu js-menu-click">
-							<li class="active"><a href="HL/index" target="div" data-cb-show="main_0"><i
+							<li class="active"><a href="main/HL/index" target="div" data-cb-show="main_0"><i
 									class="fa fa-circle-o"></i> 英雄联盟</a></li>
 							<li><a href=""><i class="fa fa-circle-o"></i>
 									Dota2</a></li>

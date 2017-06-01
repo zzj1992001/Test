@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/web/common/jstl.jsp"%>
 
-<form id="pager" action="HL/list" data-cb-show="main_1">
+<form id="pager" action="main/HL/list" data-cb-show="main_1">
 	<input type="hidden" name="pageNum" value="${pageNum }" /> <input
 		type="hidden" name="pageSize" value="${pageSize }" />
 </form>
@@ -21,10 +21,10 @@
 				<td>${data.name }</td>
 				<td>${data.content }</td>
 				<td>${data.mark }</td>
-				<td><a href="HL/modifyEdit/${data.id }"
+				<td><a href="main/HL/modifyEdit/${data.id }"
 					target="div" data-cb-show="main_1" class="btn btn-xs btn-flat btn-success ladda-button" data-style="slide-right">编辑</a> 
 					<a
-					href="HL/delete?id=${data.id }" target="json"
+					href="main/HL/delete?id=${data.id }" target="json"
 					data-cb-refresh="main_1" data-cb-alert="yes"
 					data-confirm-msg="确定删除该项目吗？"
 					class="btn btn-xs btn-flat btn-danger ladda-button"

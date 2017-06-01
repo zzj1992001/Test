@@ -21,11 +21,10 @@ public class AppConst  {
 	public static final String RESPONSE_VALUE_DEFAULT_MSG = "";
 	
 	//JSP 常用页面
-	public static final String JSP_WELCOME = "/WEB-INF/web/";
-	public static final String JSP_BASE_VIEW_PATH = "/WEB-INF/web/main";
-	public static final String URL_LOGIN = "/";
-	public static final String URL_INDEX_ADMIN = "/index.jsp";
-	public static final String URL_RESULT = "/result.jsp";
+	public static final String JSP_BASE_VIEW_PATH = "/WEB-INF/web";
+	public static final String URL_LOGIN = "/login.jsp";
+	public static final String URL_INDEX_ADMIN = "/main/index.jsp";
+	public static final String URL_RESULT = "/main/result.jsp";
 	
 	//常用HTTP请求参数
 	public static final String PARAM_KEY_CURRENT_URL = "currentUrl";
