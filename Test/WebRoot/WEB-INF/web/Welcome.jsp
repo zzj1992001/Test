@@ -34,7 +34,7 @@
 				<h1 class="cover-heading">Welcome My World</h1>
 				<p class="lead"></p>
 				<p class="lead">
-					<a href="main/login" class="btn btn-lg btn-default">login</a>
+					<a href="welcome" class="btn btn-lg btn-default">login</a>
 				</p>
 			</div>
 			<div class="mastfoot">
