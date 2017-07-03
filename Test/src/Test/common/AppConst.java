@@ -1,8 +1,5 @@
 package Test.common;
 
-import com.jfinal.core.JFinal;
-import com.jfinal.kit.PropKit;
-
 public class AppConst  {
 	//分页参数
 	public static int PAGE_NUM_DEFAULT = 1;

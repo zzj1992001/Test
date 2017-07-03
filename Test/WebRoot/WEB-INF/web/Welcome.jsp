@@ -23,7 +23,7 @@
 					<h3 class="masthead-brand">个人网站</h3>
 					<nav>
 						<ul class="nav masthead-nav">
-							<li class="active"><a href="welcome">随便点</a></li>
+							<li class="active"><a href="wow">魔兽世界无广告直播</a></li>
 							<li><a href="welcome" >不会有</a></li>
 							<li><a href="welcome">反应的</a></li>
 						</ul>
@@ -34,7 +34,7 @@
 				<h1 class="cover-heading">Welcome My World</h1>
 				<p class="lead"></p>
 				<p class="lead">
-					<a href="welcome" class="btn btn-lg btn-default">login</a>
+					<a href="main" class="btn btn-lg btn-default">login</a>
 				</p>
 			</div>
 			<div class="mastfoot">

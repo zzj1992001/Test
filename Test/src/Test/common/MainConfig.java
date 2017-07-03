@@ -1,25 +1,24 @@
 package Test.common;
 
 
-import Test.common.AppConst;
-import Test.Controller.HLcontroller;
-import Test.Controller.WelcomeController;
-import Test.Controller.indexcontroller;
-import Test.entity.User;
-import Test.entity.HL;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
 import com.jfinal.config.Interceptors;
 import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
-import com.jfinal.core.JFinal;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.druid.DruidPlugin;
 import com.jfinal.render.ViewType;
 import com.jfinal.template.Engine;
 
+import Test.Controller.HLcontroller;
+import Test.Controller.WelcomeController;
+import Test.Controller.WowController;
 import Test.Controller.indexcontroller;
+import Test.entity.HL;
+import Test.entity.User;
+import Test.entity.Wow;
 
 public class MainConfig extends JFinalConfig {
 	
@@ -43,6 +42,8 @@ public class MainConfig extends JFinalConfig {
 		me.add("/main", indexcontroller.class,AppConst.JSP_BASE_VIEW_PATH+ "/main/");
 		me.add("/main/HL",HLcontroller.class,AppConst.JSP_BASE_VIEW_PATH +"/main/HL");
 		me.add("/",WelcomeController.class,AppConst.JSP_BASE_VIEW_PATH);
+		me.add("/main/wow",WowController.class,AppConst.JSP_BASE_VIEW_PATH+ "/main/wow");
+		
 	}
 
 	@Override
@@ -59,6 +60,7 @@ public class MainConfig extends JFinalConfig {
 		ActiveRecordPlugin arp = new ActiveRecordPlugin(dp);
 		arp.addMapping("user", User.class);  //user
 		arp.addMapping("HL", HL.class); //HL
+		arp.addMapping("wow", Wow.class);
 		arp.setShowSql(true);
 		me.add(arp); 
 

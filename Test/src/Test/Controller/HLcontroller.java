@@ -1,17 +1,13 @@
 package Test.Controller;
 
 import java.util.Date;
-import java.util.List;
 
 import com.jfinal.aop.Before;
-import com.jfinal.core.Controller;
-import nc.com.BaseController;
-import nc.com.fileService.FileService;
-import nc.com.fileService.SavedFile;
-import nc.com.qiniu.QiNiuKit;
+
 import Test.Interceptor.AdminInterceptor;
 import Test.common.AppConst;
 import Test.entity.HL;
+import nc.com.BaseController;
 
 @Before(AdminInterceptor.class)
 public class HLcontroller extends BaseController {

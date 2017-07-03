@@ -102,8 +102,8 @@
 						<ul class="treeview-menu js-menu-click">
 							<li class="active"><a href="main/HL/index" target="div" data-cb-show="main_0"><i
 									class="fa fa-circle-o"></i> 英雄联盟</a></li>
-							<li><a href=""><i class="fa fa-circle-o"></i>
-									Dota2</a></li>
+							<li><a href="main/wow/index" target="div" data-cb-show="main_0"><i class="fa fa-circle-o"></i>
+									魔兽世界</a></li>
 						</ul></li>
 					<li class="treeview"><a href="#"> <i class="fa fa-laptop"></i>
 							<span>看电视剧</span> <span class="pull-right-container">

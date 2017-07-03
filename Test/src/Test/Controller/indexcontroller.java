@@ -1,12 +1,12 @@
 package Test.Controller;
 
-import com.jfinal.core.Controller;
-import nc.com.BaseController;
-import Test.Interceptor.AdminInterceptor;
-import nc.com.AppSession;
-import Test.entity.User;
 import com.jfinal.aop.Before;
 import com.jfinal.aop.Clear;
+
+import Test.Interceptor.AdminInterceptor;
+import Test.entity.User;
+import nc.com.AppSession;
+import nc.com.BaseController;
 
 @Before(AdminInterceptor.class)
 public class indexcontroller extends BaseController {
