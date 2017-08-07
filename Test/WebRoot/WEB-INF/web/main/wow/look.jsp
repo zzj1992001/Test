@@ -3,14 +3,6 @@
 <%@ include file="/WEB-INF/web/common/jstl.jsp" %> 
 <%@ include file="/WEB-INF/web/common/base_path.jsp" %> 
 
-<section class="content-header">
-	<h1>
-       魔兽世界
-        <small></small>
-	</h1>
-</section>
-
-
 <section class="content">
       <div class="row">
         <div class="col-xs-12">

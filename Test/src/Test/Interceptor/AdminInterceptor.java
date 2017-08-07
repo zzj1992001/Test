@@ -23,7 +23,7 @@ public class AdminInterceptor implements Interceptor{
 				ctrl.renderUnAuth();
 			}else 
 			{
-				ctrl.redirect("/login");
+				ctrl.redirect("/main/login");
 			}
 			return;
 		}

@@ -18,7 +18,7 @@
             <div class="box-header">
               
               <a href="main/wow/index" target="div" data-cb-show="main_0" class="btn btn-sm btn-flat btn-primary ladda-button" data-style="slide-right"><i class="fa fa-fw fa-reorder"></i>列表</a>
-              <a href="main/wow/getWowlist" target="_blank" data-cb-refresh="main_1" class="btn btn-sm btn-flat btn-success ladda-button" data-style="slide-right">同步</a>
+              <a href="main/wow/getWowlist" target="div" data-cb-alert="yes" class="btn btn-sm btn-flat btn-success ladda-button" data-style="slide-right">同步</a>
 
               <div class="box-tools">
               </div>

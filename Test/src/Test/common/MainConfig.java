@@ -13,6 +13,7 @@ import com.jfinal.render.ViewType;
 import com.jfinal.template.Engine;
 
 import Test.Controller.HLcontroller;
+import Test.Controller.VueController;
 import Test.Controller.WelcomeController;
 import Test.Controller.WowController;
 import Test.Controller.indexcontroller;
@@ -43,6 +44,7 @@ public class MainConfig extends JFinalConfig {
 		me.add("/main/HL",HLcontroller.class,AppConst.JSP_BASE_VIEW_PATH +"/main/HL");
 		me.add("/",WelcomeController.class,AppConst.JSP_BASE_VIEW_PATH);
 		me.add("/main/wow",WowController.class,AppConst.JSP_BASE_VIEW_PATH+ "/main/wow");
+		me.add("/main/vue",VueController.class,AppConst.JSP_BASE_VIEW_PATH+ "/main/");
 		
 	}
 

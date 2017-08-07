@@ -52,7 +52,7 @@
 		<header class="main-header">
 
 			<a href="" class="logo"> <span class="logo-mini">1</span>
-				<span class="logo-lg">游戏平台</span>
+				<span class="logo-lg"><b>游戏平台</b></span>
 			</a>
 
 			<nav class="navbar navbar-static-top">

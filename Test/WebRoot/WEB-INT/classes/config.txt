@@ -1,3 +1,3 @@
-jdbc_url = jdbc:mysql://localhost:3306/Test2?useUnicode=true&amp;characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+jdbc_url = jdbc:mysql://rm-uf6c2g3at52nn4y51o.mysql.rds.aliyuncs.com:3306/test?useUnicode=true&amp;characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
 jdbc_user = root
-jdbc_password = 123456
+jdbc_password = Zzj8359820

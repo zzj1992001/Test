@@ -34,7 +34,7 @@ public class WowController extends BaseController {
 		setAttr("roomid",id);
 		render("look.jsp");
 	}
-	public static void getWowlist() {
+	public void getWowlist() {
 		// TODO Auto-generated method stub
 
 		String url ="https://www.douyu.com/directory/game/WOW";
@@ -58,8 +58,19 @@ public class WowController extends BaseController {
 			   .set("rid", rid)
 			   .set("title", title)
 			   .set("img", img);
-			System.out.println(wow);
-			wow.save();
+			
+			Wow wows= Wow.dao.findById(rid);
+			if(wows != null)
+			{
+				wows.set("rid", rid)
+					.set("title", title)
+					.set("img", img);
+				wows.update();
+			}else{
+
+				wow.save();
+			}
 		}
+		renderSuccess("同步成功");
 	}
 }
